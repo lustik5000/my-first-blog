@@ -25,7 +25,7 @@ SECRET_KEY = '=5*l@yd2dj$sq^y@h!dq1yt0b)=8yk)5novcior%k&td8rp7-+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'rubik.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'lustik5000.pythonanywhere.com']
 
 
 # Application definition
