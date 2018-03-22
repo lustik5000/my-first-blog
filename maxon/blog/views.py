@@ -38,6 +38,10 @@ def post_edit(request, pk):
         form = PostForm(instance=post)
     return render(request, 'blog/post_edit.html', {'form': form})
 
+def information(request):
+    return render(request, 'blog/information.html')
+
+
 
 
 # Create your views here.

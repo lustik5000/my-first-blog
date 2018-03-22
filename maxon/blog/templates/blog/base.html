@@ -14,6 +14,13 @@
 		{% endif %}
         <h1><a href="/">Max Blog</a></h1>
     </div>
+	<div class = "listik">
+			{% for post in posts %}
+				<div class = "menu">
+					<a href = "{% url 'post_detail' pk=post.pk %}">{{post.title}}
+				</div>
+			{% endfor %}
+		</div>
     <div class="content container">
         <div class="row">
             <div class="col-md-8">
@@ -21,6 +28,9 @@
             {% endblock %}
             </div>
         </div>
+		
     </div>
+		
+	
 </body>
 </html>
